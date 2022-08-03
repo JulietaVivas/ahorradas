@@ -35,3 +35,6 @@ function hideAll() {
     document.getElementById("editar-categoria").classList.add('visually-hidden')
     document.getElementById("seccion-reportes").classList.add('visually-hidden')
 }
+
+
+
