@@ -36,5 +36,12 @@ function hideAll() {
     document.getElementById("seccion-reportes").classList.add('visually-hidden')
 }
 
+const nuevaOperacionBtn = document.getElementById("boton-nuevaOperacion");
+const newOperation = document.getElementById("nueva-operacion");
+const containerPrincipal = document.getElementById("seccion-balance");
 
+nuevaOperacionBtn.addEventListener("click", () => {
+  newOperation.classList.remove("visually-hidden");
+  containerPrincipal.classList.add("visually-hidden");
+});
 

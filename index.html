@@ -80,7 +80,15 @@
                         <option value="">Ganancia</option>
                     </select>
                     <label class="h6" for="">Categoría</label>
-                    <select class="form-select" name="" id="filtros-categorias"></select>
+                    <select class="form-select" name="" id="filtros-categorias">
+                        <option value="">Todas</option>
+                        <option value="">Comida</option>
+                        <option value="">Servicios</option>
+                        <option value="">Salidas</option>
+                        <option value="">Educación</option>
+                        <option value="">Transporte</option>
+                        <option value="">Trabajo</option>
+                    </select>
                     <label class="h6" for="">Desde</label>
                     <input class="form-control" type="date" id="filtros-fecha">
                     <label class="h6" for="">Ordenar por</label>
@@ -103,7 +111,7 @@
                     <div class="card shadow m-3 p-3">
                         <div class="row">
                             <h3 class="col">Operaciones</h2>
-                                <button class="col-4 btn btn-success me-2">
+                                <button class="col-4 btn btn-success me-2" id="boton-nuevaOperacion">
                                     <i class="fas fa-plus">&nbsp;Nueva operación</i>
                                 </button>
                         </div>
@@ -135,7 +143,14 @@
                         <option value="">Ganancia</option>
                     </select>
                     <label class="h6" for="">Caegoría</label>
-                    <select class="form-select" name="" id="nueva-operacion-categoria"></select>
+                    <select class="form-select" name="" id="nueva-operacion-categoria">
+                        <option value="">Comida</option>
+                        <option value="">Servicios</option>
+                        <option value="">Salidas</option>
+                        <option value="">Educación</option>
+                        <option value="">Transporte</option>
+                        <option value="">Trabajo</option>
+                    </select>
                     <label class="h6" for="">Fecha</label>
                     <input class="form-control" id="nueva-operacion-fecha" type="date">
                 </div>
